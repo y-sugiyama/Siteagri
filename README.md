@@ -1,8 +1,8 @@
 
-# JobRails
+# testRails
 
 ## 概要
-求人サイトの雛形になるようなプロジェクトです。
+チームでgit管理する仕方を上司に伝えるためのテストです。
 Ruby on Rails5 で作成してます。
 
 [★デモページはこちら★](https://jobrails.herokuapp.com/top)
@@ -18,8 +18,8 @@ Ruby on Rails5 で作成してます。
 ## インストール方法
 
 ```
-$ git clone https://github.com/y-sugiyama/JobRails.git
-$ cd JobRails
+$ git clone https://github.com/y-sugiyama/testRails.git
+$ cd testRails
 $ bundle install --path=vendor/bundle
 ```
 
