@@ -10,7 +10,7 @@
 
 .topimage {
     /*/assets/images/配下のどこか､という記述になる*/
-   background-image: image-url("topimage.jpg");
+   background-image: image-url("topimage.png");
       background-position: center center;
       /*画像を画面に合わせて最小サイズで表示*/
       background-size: cover;
@@ -22,7 +22,7 @@
     }
 
     .squere{
-        background-color: orangered;
+        background-color: yellowgreen;
         /*透過性*/
         opacity: 0.8;
         padding: 15px 15px;
