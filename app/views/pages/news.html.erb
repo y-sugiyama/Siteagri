@@ -1,0 +1,26 @@
+
+<div class="topbackground1">
+    <div class="container">
+        <h1>JobRails お知らせ</h1>
+        <p class="lead">  </div>
+</div>
+<div class="container">  
+
+<div class="row">
+      <%  @posts.each do |post| %>
+        <div class="col-sm-6 col-md-4" id="news">
+            <div class="thumbnail">
+                
+                <h6> <%=  post.created_at  %></h6>
+                <h3><%=  post.title %> </h3>
+                <p> <%= post.body  %></p>
+
+     
+            </div>
+        </div>
+    <% end %>
+</div>
+
+<%= paginate @posts %>
+    
+</div>
